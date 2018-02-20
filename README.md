@@ -1,6 +1,7 @@
 ## UIView Animation
 
-<img height=300 src="blob:https://imgur.com/0681eb40-67f6-d441-a91a-5fbaccf1c544" />
+<img height=300 src="https://imgur.com/6Im7lCI.gif" />
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Requirements
 * iOS 11.0+
