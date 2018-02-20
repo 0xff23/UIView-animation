@@ -12,7 +12,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var square = UIView()
-    @IBOutlet weak var numberOfSquares: UISlider!
+    @IBOutlet weak var numberOfplanes: UISlider!
     
     let duration = 1.0
     let delay = TimeInterval(900 + arc4random_uniform(100)) / 1000
@@ -46,9 +46,9 @@ class ViewController: UIViewController {
     
     @IBAction func randomSquare(_ sender: Any) {
         
-        let numberOfSquare = Int(self.numberOfSquares.value)
+        let numberOfplanes = Int(self.numberOfplanes.value)
         
-        for _ in 0...numberOfSquare {
+        for _ in 0...numberOfplanes {
             
             let size : CGFloat = CGFloat( arc4random_uniform(40))+20
             let yPosition : CGFloat = CGFloat( arc4random_uniform(200))+20
